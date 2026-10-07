@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class InsertionSort {
+
+//    Mã giả:
+//    LinearSearch(A, n, x):
+//            for i ← 0 to n - 1 do
+//            if A[i] = x then
+//            return i
+//    return -1
+
     public static void insertionSort(int[] A) {
         for (int i = 1; i < A.length; i++) {
             int key = A[i];

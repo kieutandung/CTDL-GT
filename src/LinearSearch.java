@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class LinearSearch {
+
+//    Mã giả:
+//    LinearSearch(A, n, x):
+//            for i ← 0 to n - 1 do
+//            if A[i] = x then
+//            return i
+//    return -1
+
     public static int linearSearch(int[] A, int x) {
         for (int i = 0; i < A.length; i++) {
             if (A[i] == x) {
